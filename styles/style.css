@@ -3,6 +3,20 @@ p {
 	
 }
 
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+
+figure{ float: right;
+			width: 260px;
+			margin: 10px;
+}
+figcaption { text-align: left;
+				font-size: .8em;
+				font-style: italic;
+}
 
 h3, h2, h1 {
 
