@@ -92,10 +92,14 @@ ul {
 .profile {
   display: flex;
   align-items: center;
+  justify-content: center;
   vertical-align: left;
+  margin: 20px auto;
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  max-width: 800px;
 }
 
 .profile-card {
@@ -113,7 +117,6 @@ ul {
 }
 
 figure {
-  border: thin solid #222;
   width: 150px;
   margin: 0 auto;
   flex-shrink: 0;
