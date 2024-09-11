@@ -92,6 +92,7 @@ ul {
 .profile {
   display: flex;
   align-items: center;
+  vertical-align: left;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ddd;
@@ -116,6 +117,7 @@ figure {
   width: 150px;
   margin: 0 auto;
   flex-shrink: 0;
+  float: left;
 }
 
 figcaption {
