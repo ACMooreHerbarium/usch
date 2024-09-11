@@ -1,3 +1,7 @@
+/* body {
+  font-family: "Berlingske Sans", "Arial", sans-serif;
+} */
+
 p {
   color: black;
 
@@ -7,7 +11,6 @@ p {
   max-width: 100%;
   height: auto;
 }
-
 
 figure {
   float: right;
@@ -31,7 +34,6 @@ h1 {
 
 }
 
-
 .centerlogo {
   display: block;
   margin-left: auto;
@@ -53,8 +55,6 @@ table {
   margin: auto;
 }
 
-
-
 #navigation {
   list-style-type: none;
   margin: 0;
@@ -62,7 +62,6 @@ table {
   overflow: hidden;
   background-color: #333;
 }
-
 
 ul {
 
@@ -83,8 +82,64 @@ ul {
   text-decoration: none;
 }
 
-
 /* Change the link color to #111 (black) on hover */
 #navigation li :hover {
   background-color: #73000a;
+}
+
+/* ABOUT-US */
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.profile-card {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.profile-name{
+  font-weight: 800;
+  color: #73000a;
+  font-size: large;
+}
+
+figure {
+  border: thin solid #222;
+  width: 150px;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+  font-style: normal;
+}
+
+.profile-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+.profile a {
+  color: #73000a;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.profile a:hover {
+  text-decoration: underline;
 }
