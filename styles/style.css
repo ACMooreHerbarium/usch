@@ -1,7 +1,6 @@
-/* Update font, maybe?
 body {
   font-family: "Berlingske Sans", "Arial", sans-serif;
-} */
+}
 
 p {
   color: black;
@@ -97,8 +96,8 @@ ul {
   margin: 20px auto;
   margin-bottom: 20px;
   padding: 10px;
-  border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   max-width: 800px;
 }
 
@@ -111,9 +110,7 @@ ul {
 }
 
 .profile-name{
-  font-weight: 800;
   color: #73000a;
-  font-size: large;
 }
 
 figure {
