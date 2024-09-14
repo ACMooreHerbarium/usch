@@ -89,8 +89,7 @@ ul {
   padding-left: 16px;
   text-decoration: none;
   width: 134px;
-  border-top: #444 solid 1px;
-  border-bottom: #444 solid 1px;
+
 }
 
 li a.active {
@@ -163,4 +162,9 @@ figcaption {
 .profile-divider {
   border: #ddd solid 1px;
   width: 800px;
+}
+
+.navigation-divider {
+  border: #222 solid 1px;
+  margin: 0;
 }
