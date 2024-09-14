@@ -96,8 +96,6 @@ ul {
   margin: 20px auto;
   margin-bottom: 20px;
   padding: 10px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   max-width: 800px;
 }
 
@@ -145,4 +143,9 @@ figcaption {
 
 .profile a:hover {
   text-decoration: underline;
+}
+
+.profile-divider {
+  border: #ddd solid 1px;
+  width: 800px;
 }
