@@ -13,6 +13,29 @@ p {
 
 }
 
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.styled-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a.styled-link:hover {
+  text-decoration: underline;
+}
+
+a.styled-link p {
+  margin: 0;
+  color: #007BFF;
+}
+
 .responsive {
   max-width: 100%;
   height: auto;
