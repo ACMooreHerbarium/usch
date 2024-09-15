@@ -124,6 +124,64 @@ li a.active {
   background-color: #73000a;
 }
 
+/* IMAGE GALLERY */
+.home-image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.home-image-gallery a {
+  text-decoration: none;
+}
+
+.home-responsive {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.home-responsive:hover {
+  transform: scale(1.50);
+}
+
+.resources-image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.resources-image-gallery a {
+  text-decoration: none;
+}
+
+.resources-responsive {
+  width: 225px;
+  height: 168px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.resources-responsive:hover {
+  transform: scale(1.50);
+}
+
+.image-item {
+  text-align: center;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
 /* ABOUT-US */
 .profile {
   display: flex;
