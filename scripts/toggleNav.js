@@ -5,18 +5,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (navbar && toggleButton && page) {
 
-        toggleButton.textContent = '⯇';
+        toggleButton.textContent = '⏴';
 
         toggleButton.addEventListener('click', function () {
             navbar.classList.toggle('closed');
 
             if (navbar.classList.contains('closed')) {
-                toggleButton.textContent = '⯈';
+                toggleButton.textContent = '⏵';
                 toggleButton.style.left = '0';
                 page.style.marginLeft = '0';
                 navbar.style.left = '-150px';
             } else {
-                toggleButton.textContent = '⯇';
+                toggleButton.textContent = '⏴';
                 toggleButton.style.left = '150px';
                 page.style.marginLeft = '150px';
                 navbar.style.left = '0px';
