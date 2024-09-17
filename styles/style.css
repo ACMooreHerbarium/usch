@@ -6,6 +6,7 @@ body {
 .page {
   padding: 50px;
   transition: margin-left 0.3s ease;
+  margin-left: 150px;
 }
 
 p {
@@ -269,7 +270,7 @@ figcaption {
   width: 800px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #navbar {
     width: 150px;
     left: -100%;
@@ -295,6 +296,7 @@ figcaption {
 
   .page {
     padding: 20px;
+    margin-left: 0px;
   }
   
   .profile-divider {
