@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 toggleButton.textContent = '⏴';
                 toggleButton.style.left = '150px';
-                page.style.marginLeft = '150px';
+                page.style.marginLeft = '0px';
                 navbar.style.left = '0px';
             }
         });

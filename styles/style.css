@@ -4,7 +4,6 @@ body {
 }
 
 .page {
-  margin-left: 150px;
   padding: 50px;
   transition: margin-left 0.3s ease;
 }
@@ -133,16 +132,7 @@ table {
 }
 
 .navbar-toggle {
-  position: fixed;
-  top: 0px;
-  left: 150px;
-  font-size: 30px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
-  z-index: 1000;
-  transition: left 0.3s;
+  display: none;
 }
 
 .navigation-divider {
@@ -290,6 +280,8 @@ figcaption {
   }
 
   .navbar-toggle {
+    display: block;
+    left: 150px;
     font-size: 30px;
     background-color: #333;
     color: white;
@@ -298,6 +290,7 @@ figcaption {
     z-index: 1000;
     position: fixed;
     top: 0px;
+    transition: left 0.3s;
   }
 
   .page {
