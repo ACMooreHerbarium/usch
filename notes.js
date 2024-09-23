@@ -1,6 +1,8 @@
 // all html files 
     // misaligned <head></head>
     // reduce syntax 'align="center"'
+    // create a 'footer.html' with footer script
+    // include social media links inside footer
 
 // missing html files
     // database.html
