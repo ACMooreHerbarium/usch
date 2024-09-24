@@ -1,15 +1,19 @@
+// GENERAL NOTES
+    // new href to search our collection
+    // hyphens around titles format
+    // <hr> consistency
+
+
 // all html files 
     // misaligned <head></head>
     // reduce syntax 'align="center"'
-    // create a 'footer.html' with footer script
-    // include social media links inside footer
 
 // missing html files
     // database.html
     // current-projects.html (i assume this is research.htmnl)
 
 // support-the-herbarium
-    // has un-needed table
+    // has redundant table(s)
     // i believe it was renamed before to just 'support.html' to match dr. brown's email signature link
 
 // search-our-collections
@@ -35,6 +39,6 @@
 // course-offerings
     // rename to 'courses'?
 
-
-    // test
+// identification
+    // reformat page and plantman image
 
