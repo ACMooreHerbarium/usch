@@ -3,7 +3,6 @@
     // hyphens around titles format
     // <hr> consistency
 
-
 // all html files 
     // misaligned <head></head>
     // reduce syntax 'align="center"'
@@ -31,7 +30,6 @@
             <p>Follow this <a href="home.html">link</a> to be redirected.</p>
         </body>
     </html> */
-
 
 // resources
     // redo table for @media, size constraints and legibility
