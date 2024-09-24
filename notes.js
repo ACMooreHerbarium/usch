@@ -1,6 +1,5 @@
 // GENERAL NOTES
     // new href to search our collection
-    // hyphens around titles format
     // <hr> consistency
 
 // all html files 
