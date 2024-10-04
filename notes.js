@@ -39,3 +39,8 @@
 // identification
     // reformat page and plantman image
 
+// about us
+    // add "SCDNR" to Sam Tessel and Eric Ungberg profiles
+    // add "Student" to student volunteers like Zoe Baker
+    // include other student volunteers
+    // Do we want to create a form for students to complete info to be included?
