@@ -1,6 +1,6 @@
 // GENERAL NOTES
-    // new href to search our collection
-    // <hr> consistency
+    // new href to "search our collection", from dr. brown
+    // revise organization for <hr> 
 
 // all html files 
     // misaligned <head></head>
@@ -41,6 +41,8 @@
 
 // about us
     // add "SCDNR" to Sam Tessel and Eric Ungberg profiles
-    // add "Student" to student volunteers like Zoe Baker
+    // revise organization of titles
+    // revise names in alphabetical order (except STAFF)
+    // add "Student" to student volunteers like Zoe Baker -- Zoe Baker DONE
     // include other student volunteers
-    // Do we want to create a form for students to complete info to be included?
+    // !! Do we want to create a form for students to complete info to be included? !!
