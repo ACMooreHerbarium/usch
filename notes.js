@@ -52,7 +52,3 @@
     // include other student volunteers
     // <hr> for headers?
     // !! Do we want to create a form for students to complete info to be included? !!
-
-// footer
-    // link for USCH youtube (herbariumDOTorg)
-    // already set up, need link and image icon
