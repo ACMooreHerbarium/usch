@@ -1,5 +1,5 @@
 // GENERAL NOTES
-    // new href to "search our collection", from dr. brown
+    // new href location to SERNEC "search our collection", from dr. brown. need new link (https://sernecportal.org/portal/collections/harvestparams.php?db=147)
     // revise organization for <hr> blocks
 
 // all html files 
@@ -32,9 +32,14 @@
 
 // resources
     // redo table for @media, size constraints and legibility
+    // bottom table "search their collection"
 
 // course-offerings
     // rename to 'courses'?
+
+// digitarium
+    // missing pptx file, github blocks files >= 100MiB
+    // maybe insert video files individually?
 
 // identification
     // reformat page and plantman image
@@ -45,4 +50,9 @@
     // revise names in alphabetical order (except STAFF)
     // add "Student" to student volunteers like Zoe Baker -- Zoe Baker DONE
     // include other student volunteers
+    // <hr> for headers?
     // !! Do we want to create a form for students to complete info to be included? !!
+
+// footer
+    // link for USCH youtube (herbariumDOTorg)
+    // already set up, need link and image icon
