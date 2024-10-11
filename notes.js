@@ -1,6 +1,6 @@
 // GENERAL NOTES
     // new href to "search our collection", from dr. brown
-    // revise organization for <hr> 
+    // revise organization for <hr> blocks
 
 // all html files 
     // misaligned <head></head>
