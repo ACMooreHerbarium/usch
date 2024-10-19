@@ -38,8 +38,7 @@
     // rename to 'courses'?
 
 // digitarium
-    // missing pptx file, github blocks files >= 100MiB
-    // maybe insert video files individually?
+
 
 // identification
     // reformat page and plantman image
@@ -48,7 +47,6 @@
     // add "SCDNR" to Sam Tessel and Eric Ungberg profiles
     // revise organization of titles
     // revise names in alphabetical order (except STAFF)
-    // add "Student" to student volunteers like Zoe Baker -- Zoe Baker DONE
     // include other student volunteers
     // <hr> for headers?
     // !! Do we want to create a form for students to complete info to be included? !!
