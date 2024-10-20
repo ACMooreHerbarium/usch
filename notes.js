@@ -46,7 +46,6 @@
 // about us
     // add "SCDNR" to Sam Tessel and Eric Ungberg profiles
     // revise organization of titles
-    // revise names in alphabetical order (except STAFF)
-    // include other student volunteers
     // <hr> for headers?
+    // include other student volunteers
     // !! Do we want to create a form for students to complete info to be included? !!
