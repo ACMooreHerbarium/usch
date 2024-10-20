@@ -109,7 +109,7 @@ table {
 
 /* Change the link color to #111 (black) on hover */
 #navigation li :hover {
-  background-color: #73000a;
+  background-color: #444;
 }
 
 #navbar {
