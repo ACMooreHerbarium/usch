@@ -11,7 +11,7 @@
     // current-projects.html (i assume this is research.htmnl)
 
 // support-the-herbarium
-    // has redundant table(s)
+    // has redundant hidden table(s)
     // i believe it was renamed before to just 'support.html' to match dr. brown's email signature link
 
 // search-our-collections
@@ -39,9 +39,7 @@
 
 // digitarium
 
-
 // identification
-    // reformat page and plantman image
 
 // about us
     // add "SCDNR" to Sam Tessel and Eric Ungberg profiles
