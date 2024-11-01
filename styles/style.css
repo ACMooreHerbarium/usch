@@ -107,7 +107,6 @@ table {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 #navigation li :hover {
   background-color: #444;
 }
@@ -288,8 +287,7 @@ figcaption {
 
 .video-item video {
   width: 100%;
-  height: 300px;
-  max-width: 450px;
+  height: 100%;
 }
 
 
