@@ -1,6 +1,7 @@
 // GENERAL NOTES
     // new href location to SERNEC "search our collection", from dr. brown. need new link (https://sernecportal.org/portal/collections/harvestparams.php?db=147)
     // revise organization for <hr> blocks
+    // parent USC link somewhere
 
 // all html files 
     // misaligned <head></head>
