@@ -66,8 +66,8 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
-  height: 10%;
+  width: 150px;
+  height: 60%;
 }
 
 .alex {
@@ -171,7 +171,7 @@ li a.active {
 }
 
 .home-responsive:hover {
-  transform: scale(1.50);
+  transform: scale(1.1);
 }
 
 .resources-image-gallery {
@@ -194,7 +194,7 @@ li a.active {
 }
 
 .resources-responsive:hover {
-  transform: scale(1.50);
+  transform: scale(1.1);
 }
 
 .image-item {
@@ -290,6 +290,13 @@ figcaption {
   height: 100%;
 }
 
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
 @media (max-width: 800px) {
   #navbar {
@@ -326,11 +333,6 @@ figcaption {
 
   .profile-details p {
     font-size: 12px;
-  }
-
-  .centerlogo {
-    width: 150px;
-    height: 60%;
   }
 }
 
