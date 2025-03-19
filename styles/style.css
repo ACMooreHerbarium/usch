@@ -135,6 +135,7 @@ table {
 
 .navbar-toggle {
   display: none;
+  height: 100px;
 }
 
 .navigation-divider {
@@ -317,7 +318,7 @@ footer {
     cursor: pointer;
     z-index: 1000;
     position: fixed;
-    top: 0px;
+    top: 50%;
     transition: left 0.3s;
   }
 
