@@ -302,7 +302,7 @@ figcaption {
 
 .profile-divider {
   border: #ddd solid 1px;
-  width: 800px;
+  max-width: 800px;
 }
 
 /* DIGITARIUM */
