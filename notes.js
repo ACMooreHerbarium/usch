@@ -2,9 +2,9 @@
     // new href location to SERNEC "search our collection", from dr. brown. need new link (https://sernecportal.org/portal/collections/harvestparams.php?db=147)
     // revise organization for <hr> blocks
     // parent USC link somewhere
+    // about-us and digitarium seems to have a normal tab sheet for alignment and organization
 
 // all html files 
-    // misaligned <head></head>
     // reduce syntax 'align="center"'
 
 // missing html files
