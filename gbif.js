@@ -32,7 +32,7 @@ var osm = new L.TileLayer(osmUrl, {
   attribution: osmAttrib
 });		
 
-map.setView(new L.LatLng(-20, -50), 3);
+map.setView(new L.LatLng(-10, -25), 2);
 map.addLayer(osm);
 
 // add the GBIF occurrence overlay

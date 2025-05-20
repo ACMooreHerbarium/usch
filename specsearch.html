@@ -13,8 +13,16 @@
   <!-- This code was written by Avery O. Browning (Assistant Curator) and Emanuel A. Moreno for the A.C. Moore Herbarium of the University of South Carolina. It was first published on 2024-08-10. -->
 
   <script src="scripts/toggleNav.js"></script>
-  <script src="gbif.js"></script>
-  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+	<!-- For map to work, but preload references to leaflet (mapping application). added by HB 2025-05-20. -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+	<!-- gbif.js includes parameters for harvesting data visualization tools and collections statistics from GBIF. added by HB 2025-05-20. -->
+	<script src="gbif.js"></script>
 
   <button class="navbar-toggle"></button>
 
