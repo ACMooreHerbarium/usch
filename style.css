@@ -1,0 +1,390 @@
+body {
+  font-family: "Berlingske Sans", "Arial", sans-serif;
+  margin: 0;
+}
+
+.page {
+  padding-top: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
+  transition: margin-left 0.3s ease;
+  margin-left: 150px;
+  background-image: url("../images/mainimage_filler.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 155px;
+}
+
+p {
+  color: black;
+
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.styled-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a.styled-link:hover {
+  text-decoration: underline;
+}
+
+a.styled-link p {
+  margin: 0;
+  color: #007BFF;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  float: right;
+  width: 260px;
+  margin: 10px;
+}
+
+figcaption {
+  text-align: left;
+  font-size: .8em;
+  font-style: italic;
+}
+
+h3,
+h2,
+h1 {
+  color: #73000a;  /* USC garnet*/
+}
+
+.centerlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 60%;
+}
+
+.alex {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
+table {
+  width: 75%;
+  margin: auto;
+}
+
+
+ul {
+  list-style-type: square;
+}
+
+li a.active {
+  background-color: #73000a;
+}
+
+.general-button {
+  width: 50%;
+  background-color: #73000a;
+  border: none;
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: block;
+  transition-duration: 0.4s;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.general-button:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* GBIF - added by Herrick Brown 2025-05-20 */
+.GBIFbutton {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #70af6d;}
+.button2 {background-color: #7fb1b9;}
+.button3 {background-color: #595450;}
+
+#map { height: 500px;
+}
+
+/* NAVIGATION */
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #333;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+#navigation li {
+  width: 100%;
+  float: left;
+}
+
+#navigation li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#navigation li :hover {
+  background-color: #444;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #333;
+  transition: 0.3s;
+}
+
+#navbar.open {
+  left: 0;
+}
+
+#navbar.closed {
+  left: -150px;
+}
+
+#navbar.closed + .navbar-toggle {
+  left: 0;
+}
+
+.navbar-toggle {
+  display: none;
+  height: 50px;
+  width: 25px;
+}
+
+.navigation-divider {
+  border: #333 solid 1px;
+  margin: 0;
+}
+
+#nav-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 140px;
+  height: auto;
+}
+
+/* IMAGE GALLERY */
+.home-image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.home-image-gallery a {
+  text-decoration: none;
+}
+
+.home-responsive {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.home-responsive:hover {
+  transform: scale(1.1);
+}
+
+.resources-image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.resources-image-gallery a {
+  text-decoration: none;
+}
+
+.resources-responsive {
+  width: 225px;
+  height: 168px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.resources-responsive:hover {
+  transform: scale(1.1);
+}
+
+.image-item {
+  text-align: center;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
+/* ABOUT-US */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: left;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 800px;
+}
+
+.profile-card {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.profile-name{
+  color: #73000a;
+}
+
+figure {
+  width: 150px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  float: left;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+  font-style: normal;
+}
+
+.profile-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+.profile a {
+  color: #73000a;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.profile a:hover {
+  text-decoration: underline;
+}
+
+.profile-divider {
+  border: #ddd solid 1px;
+  max-width: 800px;
+}
+
+/* DIGITARIUM */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.video-item {
+  text-align: center;
+}
+
+.video-item video {
+  width: 100%;
+  height: 100%;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  #navbar {
+    width: 150px;
+    left: -100%;
+  }
+
+  #navbar.open {
+    left: 0;
+  }
+
+  .navbar-toggle {
+    display: block;
+    left: 150px;
+    font-size: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    position: fixed;
+    top: 80%;
+    transition: left 0.3s;
+  }
+  
+  .page {
+    margin-left: 0px;
+  }
+  
+  .profile-divider {
+    width: 100%;
+  }
+
+  .profile-details p {
+    font-size: 12px;
+  }
+}
