@@ -32,7 +32,7 @@ var osm = new L.TileLayer(osmUrl, {
   attribution: osmAttrib
 });		
 
-map.setView(new L.LatLng(-10, -25), 2);
+map.setView(new L.LatLng(20, -25), 2);
 map.addLayer(osm);
 
 // add the GBIF occurrence overlay
@@ -46,5 +46,6 @@ var gbifOverlay = L.tileLayer(gbifUrl, {
   tileSize: 512,
   attribution: gbifAttrib
 });
+
 
 map.addLayer(gbifOverlay);
